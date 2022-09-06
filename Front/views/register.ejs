@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link type="text/css" rel="stylesheet" href="/css/register.css">
+    <title>Inscription</title>
+</head>
+<body>
+    <h3 class="logo">Cooking Design</h3>
+    <div class="row">
+        <div class="col s12 m12 l8 offset-l2">
+            <div class="card1">
+                <div class="card-action grey-text center">
+                   <i class="large material-icons">info_outline</i><h4>Créer votre compte</h4>
+                </div> 
+                <form action="/register" method="POST" class="col s12">
+                    <div class="input-field col s6">
+                        <input  name="pseudo" type="text" placeholder="Entrez votre pseudo">
+                        <label for="first_name"></label>                     
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="email" name="email" type="email" placeholder="Entrez votre adresse Email">
+                        <label for="email"></label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="password" name="password" type="password" placeholder="Entrez votre mot de passe">
+                        <label for="password"></label>
+                    </div>
+                    <div class="form-field right">
+                        <button type="submit" class="btn-large grey">Valider</button>                                             
+                    </div><br>          
+                </form>
+            </div>     
+        </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.validation/1.14.0/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+

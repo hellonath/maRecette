@@ -1,0 +1,37 @@
+body {
+    background-image: url("/images/fond4.webp");
+    background-size: cover;
+    object-fit: cover;
+}
+
+h3.logo {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row {
+    margin-top: 50px;
+    height: 800px;
+}
+
+.row .card1 {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 700px;
+}
+
+button:hover {
+    padding: 0px 40px;
+}
+
+.form-field .btn-large {
+    border-radius: 50px;
+}
+
+
+

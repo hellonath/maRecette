@@ -1,0 +1,77 @@
+/* ---------------------------PAGE PROFIL----------------------- */
+nav {
+    background-color: rgb(247, 162, 176);
+}
+
+.brand-logo {
+    margin-left: 50px;
+    font-weight: 800;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text {
+    color: rgb(229, 70, 96);
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-self: center;
+    
+}
+
+.card-image {
+    display: flex;
+    flex-direction: column;    
+}
+
+.row .col.s4 {
+    width: 100%;
+    display: grid;
+    grid-column-start: 1;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 5%;
+    row-gap: 2%;    
+}
+
+.row .col.l4 {
+    width: 100%;
+}
+
+.row {
+    margin-bottom: 0%;
+}
+
+section img {
+    width: 10%;
+    margin: 2% 3%;
+    border: 2px solid pink;
+}
+
+.black-text {
+    font-weight: 600;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-footer {
+    background-color: rgb(247, 162, 176);
+    margin-top: 150px;
+    
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* BOUTON EFFET VAGUES ROUGE*/
+.waves-red {
+
+    background-color: rgba(226, 38, 17, 0.65);
+  }
+
+

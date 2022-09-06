@@ -1,0 +1,73 @@
+body {
+    background-image: url("/images/fond4.webp");
+    background-size: cover;
+    object-fit: cover;
+}
+
+/* ---------------------PAGE LOGIN------------------- */
+
+h3.logo {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+.row .card {
+    background: rgba(0, 0, 0, 0.224);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+}
+
+.row .card-content {
+    height: 100%;
+    padding: 70px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(239, 229, 233);
+}
+
+input {
+    font-size: 22px !important;
+    font-weight: 700;
+    color: rgb(239, 229, 233);
+}
+
+button:hover {
+    padding: 0px 40px;
+}
+
+/* bordure blanc
+.form-field {
+    border-radius: 30px;
+    border: 2px solid white;
+}*/
+
+.form-field .btn-large {
+    border-radius: 50px;
+}
+
+[type="checkbox"]:checked+span:not(.lever):before {
+
+border-right: 2px solid rgb(207, 86, 88);
+border-bottom: 2px solid rgb(237, 109, 115);
+}
+
+/* -----------------------PAGE INSCRIPTION-------------------- */
+/* bordure rose
+.input-field {
+    border-radius: 20px;
+    border: 2px solid rgb(220, 64, 129);
+    background-color: rgba(246, 216, 227, 0.779);
+}*/
+
